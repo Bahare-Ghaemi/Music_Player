@@ -1,0 +1,48 @@
+:root{
+    --primaryColor: #623EB8;
+}
+body{
+    font-family: poppins;
+}
+.web-musicPlayer-section {
+  height: 100vh;
+  background-image: linear-gradient(
+    -225deg,
+    #5271c4 0%,
+    #b19fff 48%,
+    #eca1fe 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playerBox {
+  background-color: white;
+}
+.purpleText{
+    color: var(--primaryColor);
+}
+.fas{
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+.controllBtns{
+    width: 150px;
+    height: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-pause{
+    display: none;
+}
+.state{
+    width: 24px;
+}
+.progress{
+    background-color: rgba(147, 156, 165, 0.651);
+    cursor: pointer;
+}
+.progress-bar{
+    background-color: var(--primaryColor);
+    cursor: pointer;
+}
